@@ -1,0 +1,45 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Bleach Quiz App</string>
+    <string name="question_1">1. What main caracter\'s name is?</string>
+    <string name="question_2">2. Who stabbed main character with katana and gave him power of Shinigami?</string>
+
+    <string name="question_3">3. While in Bankai state, what color Ichigo\'s katana  is ?</string>
+    <string name="question_3_opt1">White</string>
+    <string name="question_3_opt2">Black</string>
+    <string name="question_3_opt3">Red</string>
+
+    <string name="question_4">What is lowest class of Menos</string>
+    <string name="question_4_opt1">Gillian</string>
+    <string name="question_4_opt2">Adjuchas</string>
+    <string name="question_4_opt3">Vasto Lorde</string>
+
+    <string name="question_5">From which district Zaraki Kenpachi originally came?</string>
+    <string name="question_5_opt1">55</string>
+    <string name="question_5_opt2">10</string>
+    <string name="question_5_opt3">80</string>
+
+    <string name="question_6">What weapon Uryu Ishida uses?</string>
+    <string name="question_6_opt1">Sword</string>
+    <string name="question_6_opt2">Bow</string>
+    <string name="question_6_opt3">Katana</string>
+
+    <string name="question_7">What Inoue Orihime\'s power can do? There may be several possible variants</string>
+    <string name="question_7_opt1">Heal</string>
+    <string name="question_7_opt2">Attack</string>
+    <string name="question_7_opt3">Defend</string>
+
+    <string name="question_8">Check everyone who is captain</string>
+    <string name="question_8_opt1">Tōshirō Hitsugaya</string>
+    <string name="question_8_opt2">Sado Yasutora</string>
+    <string name="question_8_opt3">Byakuya Kuchiki</string>
+
+    <string name="submit">Submit</string>
+    <string name="questions_title">Questions</string>
+    <string name="start_button">Start</string>
+    <string name="editText_enter_your_name">Enter your name</string>
+    <string name="_0">0</string>
+    <string name="your_score">Your Score</string>
+    <string name="toastMsgExcellent">Excellent! <xliff:g id="userName" example="Tom">%s</xliff:g> , You are a real Bleach fan!</string>
+    <string name="toastMsgGood">Not bad. But <xliff:g id="userName" example="Tom">%s</xliff:g> , you need to improve!</string>
+    <string name="toastMsgBad">Impostor! <xliff:g id="userName" example="Tom">%s</xliff:g>, you need to read Bleach wikipedia!!!</string>
+</resources>

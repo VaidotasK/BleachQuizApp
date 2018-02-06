@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize_S">14sp</dimen>
+    <dimen name="textSize_M">24sp</dimen>
+    <dimen name="textSize_L">32sp</dimen>
+    <dimen name="textSize_XL">42sp</dimen>
+    <dimen name="textSize_XXXXL">52sp</dimen>
+    <dimen name="paddingOrMar_S">8dp</dimen>
+    <dimen name="paddingOrMar_M">12dp</dimen>
+    <dimen name="paddingOrMar_L">16dp</dimen>
+    <dimen name="paddingOrMar_XL">24dp</dimen>
+</resources>
