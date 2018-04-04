@@ -9,21 +9,21 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class Results extends AppCompatActivity {
-    //declaration of variable
+    //Declaration of variable
     String userName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
-    /**
-     * Takes variable userName from mainActivity java file.
-     */
+        /**
+         * Takes variable userName from mainActivity java file.
+         */
         Intent intent = getIntent();
         userName = intent.getStringExtra(MainActivity.EXTRA_TEXT);
-    /**
-     * Takes Score from previous activity - Quiz.java. T
-     */
+        /**
+         * Takes Score from previous activity - Quiz.java. T
+         */
         int totalScore = intent.getIntExtra(Quiz.EXTRA_SCORE, 0);
         TextView scoreTextView = findViewById(R.id.scoreNumber);
         scoreTextView.setText("" + totalScore);

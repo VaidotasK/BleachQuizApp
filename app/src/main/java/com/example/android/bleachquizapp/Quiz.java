@@ -22,6 +22,7 @@ public class Quiz extends AppCompatActivity {
     String userName;
     private Button submitButton;
 
+
     //Saves data before changing activity
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
@@ -38,9 +39,8 @@ public class Quiz extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         userName = bundle.getString(EXTRA_TEXT);
 
-
         //When button Submit is clicked, next activity Results opens
-        submitButton = (Button) findViewById(R.id.submitButton);
+        submitButton = findViewById(R.id.submitButton);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,16 +54,16 @@ public class Quiz extends AppCompatActivity {
     public int submitResults(int score) {
 
         /**
-         * @param score - number of point got for right answers
-         * Checks all answers and count the score
+         * @param score - number of points got for the right answers
+         * Checks all answers and counts the score
          */
 
-        EditText answer1EditText = (EditText) findViewById(R.id.answer1EditText);
+        EditText answer1EditText = findViewById(R.id.answer1EditText);
         String answer1 = answer1EditText.getText().toString().toLowerCase();
         if (answer1.equals("ichigo")) {
             score++;
         }
-        EditText answer2EditText = (EditText) findViewById(R.id.answer2EditText);
+        EditText answer2EditText = findViewById(R.id.answer2EditText);
         String answer2 = answer2EditText.getText().toString().toLowerCase();
         if (answer2.equals("rukia")) {
             score++;
@@ -94,7 +94,7 @@ public class Quiz extends AppCompatActivity {
         CheckBox answer8op3 = findViewById(R.id.question8_opt3);
         CheckBox wrongAnswer8op2 = findViewById(R.id.question8_opt2);
 
-        //checks is all right answers are checked and if wrong isn't
+        //Checks is all right answers are checked AND if wrong isn't
         if (answer8op1.isChecked() && answer8op3.isChecked() && !wrongAnswer8op2.isChecked()) {
             score++;
         }

@@ -39,7 +39,8 @@
     <string name="editText_enter_your_name">Enter your name</string>
     <string name="_0">0</string>
     <string name="your_score">Your Score</string>
-    <string name="toastMsgExcellent">Excellent! <xliff:g id="userName" example="Tom">%s</xliff:g> , You are a real Bleach fan!</string>
-    <string name="toastMsgGood">Not bad. But <xliff:g id="userName" example="Tom">%s</xliff:g> , you need to improve!</string>
-    <string name="toastMsgBad">Impostor! <xliff:g id="userName" example="Tom">%s</xliff:g>, you need to read Bleach wikipedia!!!</string>
+    <string name="toastMsgExcellent">Excellent! <xliff:g example="Tom" id="userName">%s</xliff:g> , You are a real Bleach fan!</string>
+    <string name="toastMsgGood">Not bad. But <xliff:g example="Tom" id="userName">%s</xliff:g> , you need to improve!</string>
+    <string name="toastMsgBad">Impostor! <xliff:g example="Tom" id="userName">%s</xliff:g>, you need to read Bleach wikipedia!!!</string>
+
 </resources>

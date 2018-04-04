@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="TextViewQuestion" parent="AppTheme">
+    <style name="TextViewQuestion">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:paddingBottom">@dimen/paddingOrMar_S</item>
@@ -17,7 +17,7 @@
         <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
     </style>
 
-    <style name="EditTextQuestion" parent="AppTheme">
+    <style name="EditTextQuestion">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:hint">Write a name</item>
@@ -27,17 +27,17 @@
 
     </style>
 
-    <style name="RadioButton" parent="AppTheme">
+    <style name="RadioButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="RadioButtonGroup" parent="AppTheme">
+    <style name="RadioButtonGroup">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="CheckBoxQuestion" parent="AppTheme">
+    <style name="CheckBoxQuestion">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@color/backGroundForCheckBoxWhite</item>

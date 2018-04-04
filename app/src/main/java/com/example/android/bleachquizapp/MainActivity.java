@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     //Saves data before changing activity
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
-        EditText userNameInputEditText = (EditText) findViewById(R.id.enterYourNameEditText);
+        EditText userNameInputEditText = findViewById(R.id.enterYourNameEditText);
         userName = userNameInputEditText.getText().toString();
         savedInstanceState.putString(EXTRA_TEXT, userName);
         super.onSaveInstanceState(savedInstanceState);
@@ -32,15 +32,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         if (savedInstanceState != null) {
-            setContentView(R.layout.activity_main);
 
             // Restore value of userName from saved state
             userName = savedInstanceState.getString(EXTRA_TEXT);
-        } else {
-            setContentView(R.layout.activity_main);
         }
         //After button Start is clicked the Ouiz activity opens;
-        startButton = (Button) findViewById(R.id.start_button);
+        startButton = findViewById(R.id.start_button);
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,10 +51,10 @@ public class MainActivity extends AppCompatActivity {
         super.onRestoreInstanceState(savedInstanceState);
         userName = savedInstanceState.getString(EXTRA_TEXT);
     }
-    //Method opens new activity, before it saves user Name and put it into variable userName
+    //Method opens new activity, before it, it saves user Name and put it into variable userName
 
     public void openQuiz() {
-        EditText userInputName = (EditText) findViewById(R.id.enterYourNameEditText);
+        EditText userInputName = findViewById(R.id.enterYourNameEditText);
         userName = userInputName.getText().toString();
         Intent intent = new Intent(this, Quiz.class);
         intent.putExtra(EXTRA_TEXT, userName);
